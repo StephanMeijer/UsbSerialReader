@@ -1,0 +1,99 @@
+USB:
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleT6000USBXHCI
+
+        Keychron K8 Pro:
+
+          Product ID: 0x0280
+          Vendor ID: 0x3434
+          Version: 1.02
+          Speed: Up to 12 Mb/s
+          Manufacturer: Keychron
+          Location ID: 0x02100000 / 1
+          Current Available (mA): 500
+          Current Required (mA): 500
+          Extra Operating Current (mA): 0
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleT6000USBXHCI
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleT6000USBXHCI
+
+        USB5537B:
+
+          Product ID: 0x5537
+          Vendor ID: 0x0424  (SMSC)
+          Version: 60.80
+          Speed: Up to 5 Gb/s
+          Manufacturer: SMSC
+          Location ID: 0x01200000 / 1
+          Current Available (mA): 900
+          Current Required (mA): 0
+          Extra Operating Current (mA): 0
+
+            USB 10/100/1000 LAN:
+
+              Product ID: 0x8153
+              Vendor ID: 0x0bda  (Realtek Semiconductor Corp.)
+              Version: 30.01
+              Serial Number: 000001000000
+              Speed: Up to 5 Gb/s
+              Manufacturer: Realtek
+              Location ID: 0x01220000 / 4
+              Current Available (mA): 900
+              Current Required (mA): 256
+              Extra Operating Current (mA): 0
+
+        USB2137B:
+
+          Product ID: 0x2137
+          Vendor ID: 0x0424  (SMSC)
+          Version: 60.80
+          Speed: Up to 480 Mb/s
+          Manufacturer: SMSC
+          Location ID: 0x01100000 / 2
+          Current Available (mA): 500
+          Current Required (mA): 0
+          Extra Operating Current (mA): 0
+
+            slae.sh cc2652rb stick - slaesh's iot stuff:
+
+              Product ID: 0xea60
+              Vendor ID: 0x10c4  (Silicon Laboratories, Inc.)
+              Version: 1.00
+              Serial Number: 00_12_4B_00_21_4F_3F_5D
+              Speed: Up to 12 Mb/s
+              Manufacturer: Silicon Labs
+              Location ID: 0x01170000 / 6
+              Current Available (mA): 500
+              Current Required (mA): 100
+              Extra Operating Current (mA): 0
+
+            USB2.0-Ser!:
+
+              Product ID: 0x7523
+              Vendor ID: 0x1a86
+              Version: 2.54
+              Speed: Up to 12 Mb/s
+              Location ID: 0x01140000 / 5
+              Current Available (mA): 500
+              Current Required (mA): 96
+              Extra Operating Current (mA): 0
+
+            USB Audio:
+
+              Product ID: 0x4014
+              Vendor ID: 0x0bda  (Realtek Semiconductor Corp.)
+              Version: 0.01
+              Serial Number: 200901010001
+              Speed: Up to 480 Mb/s
+              Manufacturer: Generic
+              Location ID: 0x01150000 / 3
+              Current Available (mA): 500
+              Current Required (mA): 500
+              Extra Operating Current (mA): 0
