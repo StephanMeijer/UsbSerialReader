@@ -8,7 +8,7 @@ using UsbDeviceReader;
 // In this thing, change the path..
 var output = new ShellRunner("cat /Users/steve/RiderProjects/UsbDeviceReader/UsbDeviceReader/system_profiler.txt").Run();
 
-string blockPattern = @"(?<=\n\s+)(.+):\n(?:\s{10,14}.+\n)+";
+string blockPattern = @"(?<=\n\s+)(.+):\n(?:\s{14}.+\n)+";
 Regex blockRegex = new Regex(blockPattern, RegexOptions.Multiline);
 MatchCollection blockMatches = blockRegex.Matches(output);
 
