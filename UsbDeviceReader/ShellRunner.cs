@@ -5,10 +5,12 @@ namespace UsbDeviceReader;
 public class ShellRunner
 {
     private readonly string _command;
+    private readonly string _arguments;
     
-    public ShellRunner(string command)
+    public ShellRunner(string command, string arguments)
     {
         _command = command;
+        _arguments = arguments;
     }
 
     public string Run()
@@ -17,8 +19,8 @@ public class ShellRunner
         {
             StartInfo = new ProcessStartInfo
             {
-                FileName = "/bin/bash",
-                Arguments = $"-c \"{_command}\"",
+                FileName = _command,
+                Arguments = _arguments,
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
                 CreateNoWindow = true

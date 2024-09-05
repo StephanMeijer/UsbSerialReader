@@ -6,7 +6,7 @@ using UsbDeviceReader;
 // In real life, execute:
 // var output = new ShellRunner("system_profiler SPUSBDataType").Run();
 // In this thing, change the path..
-var output = new ShellRunner("cat /Users/steve/RiderProjects/UsbDeviceReader/UsbDeviceReader/system_profiler.txt").Run();
+var output = new ShellRunner("cat", "/Users/steve/RiderProjects/UsbDeviceReader/UsbDeviceReader/system_profiler.txt").Run();
 
 string blockPattern = @"(?<=\n\s+)(.+):\n(?:\s{14}.+\n)+";
 Regex blockRegex = new Regex(blockPattern, RegexOptions.Multiline);
